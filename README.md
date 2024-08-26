@@ -1,9 +1,13 @@
-# Quickstart Gradle Template
-Smithy [quickstart](https://smithy.io/2.0/quickstart.html) example built using gradle 
+# Smithy Test Package
 
-## Building
-To build this project run:
-```console
-./gradlew clean build
-```
-From the root of this template directory.
+This is just for testing Smithy with GitHub's package repositories.
+
+There are three branches of note:
+
+* `main` - Contains the package that is actually being
+  published. Gradle is configured to publish this branch to the maven
+  package repo on GitHub.
+* `smithy-cli-dependency` - Contains a Smithy CLI-based Smithy package
+  that depends on the pacakge in `main`.
+* `gradle-dependency` (you are here) - Contains a Gradle-based Smithy package that depends
+  on the package in `main`.
