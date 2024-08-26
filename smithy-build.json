@@ -7,7 +7,7 @@
       ],
       "repositories": [
           {
-              "url": "https://maven.pkg.github.com/JordonPhillips/smithy-test-packge",
+              "url": "https://maven.pkg.github.com/JordonPhillips/smithy-test-package",
               "httpCredentials": "JordonPhillips:${GITHUB_TOKEN}"
           }
       ]
