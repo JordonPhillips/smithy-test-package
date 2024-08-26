@@ -1,4 +1,15 @@
 {
   "version": "1.0",
-  "sources": ["models"]
+  "sources": ["models"],
+  "maven": {
+      "dependencies": [
+          "me.jkphillips:smithy-test-package:1.0"
+      ],
+      "repositories": [
+          {
+              "url": "https://maven.pkg.github.com/JordonPhillips/smithy-test-packge",
+              "httpCredentials": "JordonPhillips:${GITHUB_TOKEN}"
+          }
+      ]
+  }
 }
