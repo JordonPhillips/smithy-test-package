@@ -17,6 +17,9 @@ publishing {
     }
     publications {
         register<MavenPublication>("gpr") {
+            groupId = "me.jkphillips"
+            artifactId = "smithy-test-packge"
+            version = "1.0"
             from(components["java"])
         }
     }
