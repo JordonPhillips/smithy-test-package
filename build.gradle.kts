@@ -19,7 +19,7 @@ dependencies {
     val smithyVersion: String by project
 
     smithyCli("software.amazon.smithy:smithy-cli:$smithyVersion")
-    implementation("me.jkphillips:smithy-test-packge:1.0")
+    implementation("me.jkphillips:smithy-test-package:1.0")
 
     // Uncomment below to add various smithy dependencies (see full list of smithy dependencies in https://github.com/awslabs/smithy)
     // implementation("software.amazon.smithy:smithy-model:$smithyVersion")
